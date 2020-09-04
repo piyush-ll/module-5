@@ -116,7 +116,7 @@ $(function() { // Same as document.addEventListener("DOMContentLoaded"...
                 // it into the home html snippet.
                 //
                 // var homeHtmlToInsertIntoMainPage = ....
-                chosenCategoryShortName = " " + chosenCategoryShortName + " ";
+                chosenCategoryShortName = "'" + chosenCategoryShortName + "'";
                 var homeHtmlToInsertIntoMainPage = insertProperty(homeHtml, "randomCategoryShortName", chosenCategoryShortName);
 
 
